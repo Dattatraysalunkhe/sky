@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us</title>
+    <link rel="stylesheet" href="/about.css">
+    <!--gfont-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!--Header-->
+    <div class="header">
+
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <h1>Products</h1>
+                </div>
+                <nav>
+                    <ul id="MenuItem">
+                        <li><a href="http://127.0.0.1:5500/index.html">Home </a></li>
+                        <li><a href="http://127.0.0.1:5500/product.html">Products</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="http://127.0.0.1:5500/contactus.html">Contact us</a></li>
+                        <li><a href="http://127.0.0.1:5500/Login.html">Login</a></li>
+                    </ul>
+                </nav>
+                <img src="/images/cart.png" width="25px" height="25px" alt="">
+                <img src="/images/menu.png" alt="" class="menuicon" onclick="menutoggle()">
+            </div>
+
+            <div class="row">
+                <div class="col2">
+                    <img src="/images/about.jpg" alt="">
+                </div>
+                <div class="col2">
+
+                    <h3>About US</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima facere, assumenda reiciendis
+                        animi ea maiores tempora
+                        pariatur distinctio officia laudantium quisquam placeat eos, quibusdam nostrum consequatur quo
+                        doloremque excepturi ad. Quam
+                        at, commodi pariatur vel doloremque quibusdam ea omnis molestias ad. Commodi modi exercitationem
+                        officiis sint? Eos inventore
+                        necessitatibus suscipit fugiat modi perferendis, vero voluptate, recusandae velit debitis ex cum
+                        impedit, libero asperiores? Aut tenetur
+                        nisi dolores neque fugiat placeat veritatis praesentium sapiente maiores ipsa explicabo earum
+                        cupiditate quia magni,
+                        quaerat blanditiis doloribus facilis sunt rem nesciunt! Nobis voluptatibus recusandae, nostrum
+                        quas id debitis itaque velit
+                        exercitationem quos quo ipsum sunt omnis, non facilis laborum eveniet. Deleniti iure nulla alias
+                        a explicabo
+                        temporibus consequatur fuga. Impedit rem expedita eius voluptate, sed fugit neque tempora fuga
+                        ipsa ipsum
+                        fugiat cum vero asperiores repudiandae corporis unde obcaecati odio nemo. Tempore porro
+                        exercitationem, odio sit
+                        nam quaerat eaque labore aut velit amet dolorem accusamus eum aperiam deserunt provident saepe
+                        dignissimos ad,
+                        iste accusantium perferendis consequuntur nihil consectetur sint? Quia sapiente dolores aliquam
+                        obcaecati?</p>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!--footer-->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footercol1">
+                    <h3>Download our app</h3>
+                    <p>Download App for Android and ios mobile phone.</p>
+                    <div class="applogo">
+                        <img src="/images/play-store.png" alt="">
+                        <img src="/images/app-store.png" alt="">
+                    </div>
+                </div>
+                <div class="footercol2">
+                    <h3>Skyshop</h3>
+                    <p>we are make easy to buy product at ypur your place</p>
+                </div>
+                <div class="footercol3">
+                    <h3>About</h3>
+                    <ul>
+                        <li><a href="#">Our Story</a></li>
+                        <li><a href="">contact Us</a></li>
+                        <li><a href="">Careers</a></li>
+                        <li><a href="">Privacy & Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footercol4">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="">Help</a></li>
+                        <li><a href="">payment</a></li>
+                        <li><a href="">Track your Order</a></li>
+                        <li><a href="">Term & Condition</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2023 - Sky Shop</p>
+        </div>
+    </div>
+    <!--javascript-->
+
+    <script>
+        var MenuItem = document.getElementById("MenuItem");
+        MenuItem.style.maxHeight = "0px"
+
+        function menutoggle() {
+            if (MenuItem.style.maxHeight == "0px") {
+                MenuItem.style.maxHeight = "200px"
+            }
+            else {
+                MenuItem.style.maxHeight = "0px"
+            }
+        }
+
+    </script>
+</body>
+
+</html>
